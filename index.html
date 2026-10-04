@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Меню — Столовая Омской академии</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Столовая Омской академии</h1>
+    <p class="subtitle">Меню на сегодня</p>
+  </header>
+
+  <section class="allergen-note">
+    <label>
+      <input type="checkbox" id="highlight-allergens">
+      Выделять блюда с аллергенами
+    </label>
+  </section>
+
+  <main>
+    <h2 class="section-title">Студенческие комбо</h2>
+    <div class="menu-grid" id="menu-grid"></div>
+
+    <h2 class="section-title">Ежедневное меню <span class="section-date">на 24.08.2026</span></h2>
+    <div class="daily-grid" id="daily-grid"></div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Стоимость любого комбо — 200 ₽. Цены ежедневного меню — в рублях. Аллергены указаны предварительно, уточняйте состав у работников столовой.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
